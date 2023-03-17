@@ -9,38 +9,3 @@
 * {
   box-sizing: border-box;
 }
-
-/* HEADER */
-header {
-  font-family: "Bebas Neue", cursive;
-}
-
-.top-head {
-  background-image: url(/images/header-cover.png);
-  padding: 0.5em;
-  text-align: right;
-  border-bottom: 1px solid var(--border);
-}
-
-.top-head > button {
-  font-size: 18px;
-}
-
-button > i {
-  font-size: 20px;
-  margin-right: 0.3em;
-}
-
-.top-head > .btn-don {
-  background-color: var(--darkOrange);
-  color: white;
-  border-radius: 0;
-}
-
-.top-head > .rest-btn {
-  background-color: white;
-  border: 3px solid black;
-  margin-left: 0.3em;
-  border-radius: 0;
-  padding: 0.2em 0.7em 0.2em 0.7em;
-}
