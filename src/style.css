@@ -9,3 +9,217 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#separator-white {
+  height: 5px;
+  width: 50px;
+  opacity: 1;
+  position: relative;
+  bottom: 15px;
+}
+.h2-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  letter-spacing: 1.2px;
+}
+
+.separator-black {
+  height: 5px !important;
+  width: 30px;
+  opacity: 1;
+  position: relative;
+  bottom: 15px;
+}
+
+/* ------------------- MOBILE ---------------*/
+/* HEADER */
+header {
+  font-family: "Bebas Neue", cursive;
+  width: 100%;
+}
+
+#logo {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-left: 0.5em;
+}
+
+.top-head {
+  width: 100%;
+  padding: 1.5em;
+  text-align: right;
+}
+
+.top-head > button {
+  font-size: 18px;
+}
+
+button > i {
+  font-size: 20px;
+  margin-right: 0.3em;
+}
+
+.btn-don,
+.btn-shop {
+  display: none;
+}
+
+.top-head > .btn-don {
+  background-color: var(--darkOrange);
+  color: white;
+  border-radius: 0;
+}
+
+.top-head > .rest-btn {
+  background-color: white;
+  border: 3px solid black;
+  margin-left: 0.3em;
+  border-radius: 0;
+  padding: 0.2em 0.7em 0.2em 0.7em;
+}
+
+.bot-head > ul {
+  display: none;
+}
+
+/* MAIN CONTENT */
+.main-container {
+  width: 1440;
+  max-width: 100%;
+}
+
+section.whale {
+  /* filter: contrast(130%); */
+  background-image: url(/images/baleine-sm.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whale {
+  color: white;
+}
+
+.whale > h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+.whale > p,
+.whale > a {
+  letter-spacing: 1px;
+}
+
+.whale > a {
+  color: white;
+  background-color: var(--orange);
+  padding: 0.5em 2em;
+}
+.whale > a:hover {
+  background-color: var(--darkOrange);
+}
+
+/* CARDS PART */
+.cards {
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+/* 
+@media (min-width: 600px) {
+  #img {
+    background-image: url(/images/logo-WWF.jpg);
+    background-size: cover;
+    left: 40px;
+    height: 140px;
+    width: 120px;
+    position: absolute;
+    z-index: 100;
+  }
+
+  .top-head {
+    background-image: url(/images/header-cover.png);
+    padding: 0.5em;
+    text-align: right;
+    border-bottom: 1px solid var(--border);
+    max-width: 100%;
+  }
+
+  .top-head > button {
+    font-size: 18px;
+  }
+
+  button > i {
+    font-size: 20px;
+    margin-right: 0.3em;
+  }
+
+  .btn-don,
+  .btn-shop {
+    display: inline;
+  }
+
+  .top-head > .btn-don {
+    background-color: var(--darkOrange);
+    color: white;
+    border-radius: 0;
+  }
+
+  .top-head > .rest-btn {
+    background-color: white;
+    border: 3px solid black;
+    margin-left: 0.3em;
+    border-radius: 0;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+  }
+
+  .bot-head > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    max-width: 1300;
+  }
+
+  .bot-head > ul > li {
+    font-size: 22px;
+    padding: 1.2em;
+    margin-right: 0.7em;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+  }
+
+  .bot-head > ul > li:hover {
+    border-bottom: 2px solid black;
+  }
+
+  #logo {
+    height: 140px;
+    width: 120px;
+    position: absolute;
+    margin-left: 2em;
+  }
+} */
