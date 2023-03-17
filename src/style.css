@@ -104,7 +104,6 @@ section.whale {
   /* filter: contrast(130%); */
   background-image: url(/images/baleine-sm.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   min-height: 700px;
@@ -141,8 +140,44 @@ section.whale {
 
 /* CARDS PART */
 .cards {
+  /* background-color: red; */
   margin: 0 auto;
   max-width: 95%;
+}
+
+.card {
+  width: 100%;
+  margin-top: 2em;
+  border: none;
+}
+
+.card + .card {
+  /* background-color: red; */
+  margin-top: -50px;
+}
+
+.article-txt {
+  background-color: white;
+  opacity: 0.9;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  text-align: center;
+}
+
+.article-txt > h3 {
+  font-family: "Bebas Neue";
+  padding: 2em 1em 1em 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.article-txt > p {
+  padding: 0 3em;
+  line-height: 1.5;
+  padding: 0 3em 3em 3em;
 }
 
 /* 
