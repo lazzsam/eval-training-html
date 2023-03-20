@@ -58,10 +58,12 @@
     <main class="main-container">
       <!-- WHALE PART -->
       <section class="whale">
-        <h1>Rétrospective 2022</h1>
-        <hr id="separator-white" />
-        <p>Les bonnes nouvelles de l'année !</p>
-        <a href="#">LIRE L'ARTICLE</a>
+        <div class="whale-txt">
+          <h1>Rétrospective 2022</h1>
+          <hr id="separator-white" />
+          <p>Les bonnes nouvelles de l'année !</p>
+          <a href="#">LIRE L'ARTICLE</a>
+        </div>
       </section>
 
       <!-- CART PART -->
@@ -70,72 +72,75 @@
           <h2>à la une</h2>
           <hr class="separator-black" />
         </div>
+
         <!-- CARDS -->
-        <article class="card">
-          <img src="/images/australie-kang.jpg" alt="kangaroo-picture" />
-          <div class="article-txt">
-            <h3>
-              Regain de vie en <br />
-              Australie
-            </h3>
-            <p>
-              26 espèces locales vont être retirées de la liste des animaux
-              menacés car leur état s’est nettement amélioré. Une nouvelle
-              encourageante dans un pays où le taux d’extinction des mammifères
-              est le plus élevé au monde…
-            </p>
-          </div>
-        </article>
+        <div class="articles1-2">
+          <article class="card" id="article1">
+            <img src="/images/australie-kang.jpg" alt="kangaroo-picture" />
+            <div class="article-txt">
+              <h3>
+                Regain de vie en <br />
+                Australie
+              </h3>
+              <p>
+                26 espèces locales vont être retirées de la liste des animaux
+                menacés car leur état s’est nettement amélioré. Une nouvelle
+                encourageante dans un pays où le taux d’extinction des
+                mammifères est le plus élevé au monde…
+              </p>
+            </div>
+          </article>
 
-        <article class="card">
-          <img src="/images/madagascar.jpg" alt="mangroove-picture" />
-          <div class="article-txt">
-            <h3>
-              Préserver les mangroves <br />
-              du Manambolo
-            </h3>
-            <p>
-              60 000 hectares continus le long du littoral malgache, les
-              mangroves sont indispensables aux populations locales. Elles leur
-              procurent nourriture, bois de chauffage ainsi que matériaux de
-              construction pour leurs habitations. Elles sont aussi dotées de
-              vertus médicinales.
-            </p>
-          </div>
-        </article>
+          <article class="card" id="article2">
+            <img src="/images/madagascar.jpg" alt="mangroove-picture" />
+            <div class="article-txt">
+              <h3>
+                Préserver les mangroves <br />
+                du Manambolo
+              </h3>
+              <p>
+                60 000 hectares continus le long du littoral malgache, les
+                mangroves sont indispensables aux populations locales. Elles
+                leur procurent nourriture, bois de chauffage ainsi que matériaux
+                de construction pour leurs habitations. Elles sont aussi dotées
+                de vertus médicinales.
+              </p>
+            </div>
+          </article>
+        </div>
 
-        <article class="card">
-          <img src="/images/singe.jpg" alt="monkey-picture" />
-          <div class="article-txt">
-            <h3>
-              Biodiversité en voie <br />
-              de disparition… <br />
-              agissons !
-            </h3>
-            <p>
-              Le dernier rapport « Planète vivante » publié par le WWF vient
-              rappeler l’ampleur dramatique de la perte de biodiversité dans le
-              monde, notamment à cause du changement climatique.
-            </p>
-          </div>
-        </article>
+        <div class="articles3-4">
+          <article class="card" id="article3">
+            <img src="/images/singe.jpg" alt="monkey-picture" />
+            <div class="article-txt">
+              <h3>
+                Biodiversité en voie <br />
+                de disparition… <br />
+                agissons !
+              </h3>
+              <p>
+                Le dernier rapport « Planète vivante » publié par le WWF vient
+                rappeler l’ampleur dramatique de la perte de biodiversité dans
+                le monde, notamment à cause du changement climatique.
+              </p>
+            </div>
+          </article>
 
-        <article class="card last-card">
-          <img src="/images/foret-guyane.jpg" alt="forest-picture" />
-          <div class="article-txt">
-            <h3>
-              Les dirigeants <br />
-              européens scellent <br />
-              un accord historique <br />
-              pour stopper la <br />
-              déforestation
-            </h3>
-            <p>
-              C’est historique : l’Union européenne n'autorisera plus la vente
-              sur son marché de produits liés à la destruction des forêts.
-            </p>
-          </div>
-        </article>
+          <article class="card last-card" id="article4">
+            <img src="/images/foret-guyane.jpg" alt="forest-picture" />
+            <div class="article-txt">
+              <h3>
+                Un accord historique <br />
+                pour stopper la <br />
+                déforestation
+              </h3>
+              <p>
+                C’est historique : l’Union européenne n'autorisera plus la vente
+                sur son marché de produits liés à la destruction des forêts.
+              </p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-- VIDEO PART -->
@@ -256,84 +261,86 @@
     </main>
 
     <footer>
-      <div class="mentions">
-        <div class="mention">
-          <h3>S'engager</h3>
+      <div class="footer-content">
+        <div class="mentions">
+          <div class="mention">
+            <h3>S'engager</h3>
 
-          <ul class="mention-list">
-            <li>Faire un don</li>
-            <li>Nos campagnes</li>
-            <li>Devenir bénévole</li>
-            <li>Faire un legs</li>
-            <li>Boutique</li>
-          </ul>
+            <ul class="mention-list">
+              <li>Faire un don</li>
+              <li>Nos campagnes</li>
+              <li>Devenir bénévole</li>
+              <li>Faire un legs</li>
+              <li>Boutique</li>
+            </ul>
+          </div>
+
+          <div class="mention">
+            <h3>S'informer</h3>
+
+            <ul class="mention-list">
+              <li>Newsletter</li>
+              <li>Actualités</li>
+              <li>L'Effet Panda</li>
+              <li>Traces du Panda</li>
+              <li>Podcast</li>
+            </ul>
+          </div>
+
+          <div class="mention">
+            <h3>Échanger</h3>
+
+            <ul class="mention-list">
+              <li>Besoin d'aide ?</li>
+              <li>Nous contacter</li>
+              <li>Rejoindre l'équipe</li>
+              <li>Mon espace WWF</li>
+            </ul>
+          </div>
+
+          <div class="mention">
+            <h3>Crédits</h3>
+
+            <ul class="mention-list">
+              <li>Metnions légales</li>
+              <li>Confidentialité</li>
+              <li>Politique de cookies</li>
+              <li>Gestion des cookies</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="mention">
-          <h3>S'informer</h3>
+        <p class="mentions-p">
+          66 % du montant de votre don au profit du WWF peut être déduit de
+          votre impôt sur le revenu. Le Fonds Mondial pour la Nature France, dit
+          WWF France est une Fondation reconnue d'utilité publique. Numéro
+          d’enregistrement et SIREN : 302 518 667.
+        </p>
 
-          <ul class="mention-list">
-            <li>Newsletter</li>
-            <li>Actualités</li>
-            <li>L'Effet Panda</li>
-            <li>Traces du Panda</li>
-            <li>Podcast</li>
-          </ul>
+        <hr class="footer-separator" />
+
+        <div class="logo-mission">
+          <img src="/images/logo-WWF.jpg" alt="logo" />
+
+          <div class="logo-mission-txt">
+            <h3>Notre mission</h3>
+            <p>
+              Arrêter la dégradation de l'environnement dans le monde et
+              construire un avenir où les êtres humains pourront vivre en
+              harmonie avec la nature.
+            </p>
+          </div>
         </div>
 
-        <div class="mention">
-          <h3>Échanger</h3>
+        <hr class="footer-separator" />
 
-          <ul class="mention-list">
-            <li>Besoin d'aide ?</li>
-            <li>Nous contacter</li>
-            <li>Rejoindre l'équipe</li>
-            <li>Mon espace WWF</li>
-          </ul>
-        </div>
-
-        <div class="mention">
-          <h3>Crédits</h3>
-
-          <ul class="mention-list">
-            <li>Metnions légales</li>
-            <li>Confidentialité</li>
-            <li>Politique de cookies</li>
-            <li>Gestion des cookies</li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="mentions-p">
-        66 % du montant de votre don au profit du WWF peut être déduit de votre
-        impôt sur le revenu. Le Fonds Mondial pour la Nature France, dit WWF
-        France est une Fondation reconnue d'utilité publique. Numéro
-        d’enregistrement et SIREN : 302 518 667.
-      </p>
-
-      <hr class="footer-separator" />
-
-      <div class="logo-mission">
-        <img src="/images/logo-WWF.jpg" alt="logo" />
-
-        <div class="logo-mission-txt">
-          <h3>Notre mission</h3>
+        <div class="trademark">
           <p>
-            Arrêter la dégradation de l'environnement dans le monde et
-            construire un avenir où les êtres humains pourront vivre en harmonie
-            avec la nature.
+            © 2023 WWF - World Wide Fund For Nature © 1986 Panda Symbol WWF –
+            World Wide Fund For Nature (formerly World Wildlife Fund) ® “WWF” is
+            a WWF Registered Trademark
           </p>
         </div>
-      </div>
-
-      <hr class="footer-separator" />
-
-      <div class="trademark">
-        <p>
-          © 2023 WWF - World Wide Fund For Nature © 1986 Panda Symbol WWF –
-          World Wide Fund For Nature (formerly World Wildlife Fund) ® “WWF” is a
-          WWF Registered Trademark
-        </p>
       </div>
     </footer>
   </body>
