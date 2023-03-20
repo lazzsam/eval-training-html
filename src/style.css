@@ -4,6 +4,7 @@
   --orange: #fd7e14;
   --darkOrange: #fe6a22;
   --border: #e0e0e0;
+  --font: "Bebas Neue", cursive;
 }
 
 * {
@@ -30,7 +31,7 @@ a {
 }
 h2 {
   text-transform: uppercase;
-  font-family: "Bebas Neue";
+  font-family: var(--font);
   letter-spacing: 1.2px;
 }
 
@@ -42,10 +43,14 @@ h2 {
   bottom: 15px;
 }
 
+.footer-separator {
+  height: 2px !important;
+}
+
 /* ------------------- MOBILE ---------------*/
 /* HEADER */
 header {
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--font);
   width: 100%;
 }
 
@@ -63,7 +68,7 @@ header {
 }
 
 .top-head > button {
-  font-size: 18px;  
+  font-size: 18px;
 }
 
 button > i {
@@ -121,7 +126,7 @@ section.whale {
   font-size: 2rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--font);
 }
 
 .whale > p,
@@ -152,7 +157,7 @@ section.whale {
 }
 
 .last-card {
-  height: 550px;
+  height: 700px;
 }
 
 .card + .card {
@@ -171,7 +176,7 @@ section.whale {
 }
 
 .article-txt > h3 {
-  font-family: "Bebas Neue";
+  font-family: var(--font);
   padding: 2em 1em 1em 1em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -205,6 +210,90 @@ section.whale {
 .desc > p:nth-child(1) {
   font-weight: bold;
 }
+
+/* RAISON D'ÊTRE PART */
+.bg-light {
+  background-image: url(/images/bg-light.png);
+  padding: 2em;
+  margin: 4em 0;
+}
+
+.bg-light > .h2-title {
+  margin-top: 1em;
+}
+
+.bg-light > p {
+  line-height: 1.8;
+  font-family: var(--font);
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0 2em;
+}
+
+.a-light {
+  text-align: center;
+}
+
+.a-light > a {
+  border: 2px solid black;
+  background-color: white;
+  font-family: var(--font);
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+  background-image: url(/images/footer-cover.png);
+  color: white;
+  padding: 2em 1em;
+  width: 100%;
+}
+
+.mentions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mentions > .mention:nth-child(1) {
+  margin-bottom: 2em;
+}
+
+.mention > h3 {
+  font-family: var(--font);
+}
+
+.mention-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  row-gap: 10px;
+}
+
+.mentions-p {
+  margin-top: 1em;
+}
+
+.logo-mission {
+  display: flex;
+}
+
+.logo-mission > img {
+  width: 120px;
+  height: 120px;
+  margin: 0 1em;
+}
+
+.logo-mission-txt > h3 {
+  font-family: var(--font);
+  letter-spacing: 1px;
+}
+
+.trademark > p {
+  font-size: 11px;
+}
+
+
 
 /* 
 @media (min-width: 600px) {
