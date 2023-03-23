@@ -179,21 +179,9 @@ section.socials {
   background-color: #0072b1;
 }
 
-#whatsapp {
-  background-color: #25d366;
-}
-
 #email {
   background-color: var(--orange);
-}
-
-#plus {
   border-radius: 0 50% 50% 0;
-  background-color: grey;
-}
-
-#plus-icon {
-  font-weight: bold;
 }
 
 /* FOOTER */
