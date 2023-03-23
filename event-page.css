@@ -191,7 +191,7 @@ section.socials {
 
 /* FOOTER */
 footer {
-  background-image: url(/images/footer-cover.png);
+  background-image: url(./images/footer-cover.png);
   color: white;
   padding: 2em 1em;
   width: 100%;
@@ -306,7 +306,7 @@ footer {
   }
 
   .top-head {
-    background-image: url(/images/header-cover.png);
+    background-image: url(./images/header-cover.png);
     width: 100%;
     max-height: 80px;
     padding: 1.5em;

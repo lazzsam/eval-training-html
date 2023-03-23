@@ -107,7 +107,7 @@ button > i {
 
 section.whale {
   /* filter: contrast(130%); */
-  background-image: url(/images/baleine-sm.jpg);
+  background-image: url(./images/baleine-sm.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -218,7 +218,7 @@ section.whale {
 
 /* RAISON D'ÊTRE PART */
 .bg-light {
-  background-image: url(/images/bg-light.png);
+  background-image: url(./images/bg-light.png);
   padding: 2em;
   margin: 4em 0;
 }
@@ -249,7 +249,7 @@ section.whale {
 
 /* FOOTER */
 footer {
-  background-image: url(/images/footer-cover.png);
+  background-image: url(./images/footer-cover.png);
   color: white;
   padding: 2em 1em;
   width: 100%;
@@ -315,7 +315,7 @@ footer {
   /* MAIN CONTENT */
   section.whale {
     /* filter: contrast(130%); */
-    background-image: url(/images/baleine-md.jpg);
+    background-image: url(./images/baleine-md.jpg);
     background-repeat: no-repeat;
     /* background-size: auto; */
     min-height: 800px;
@@ -365,7 +365,7 @@ footer {
 
   /* RAISON D'ÊTRE PART */
   .bg-light {
-    background-image: url(/images/bg-light.png);
+    background-image: url(./images/bg-light.png);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -421,7 +421,7 @@ footer {
   }
 
   .top-head {
-    background-image: url(/images/header-cover.png);
+    background-image: url(./images/header-cover.png);
     width: 100%;
     max-height: 80px;
     padding: 1.5em;
@@ -448,7 +448,7 @@ footer {
 
   /* MAIN CONTENT */
   section.whale {
-    background-image: url(/images/baleine-lg.jpg);
+    background-image: url(./images/baleine-lg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -537,7 +537,7 @@ footer {
 
   /* RAISON D'ÊTRE PART */
   .bg-light {
-    background-image: url(/images/bg-light.png);
+    background-image: url(./images/bg-light.png);
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -555,7 +555,7 @@ footer {
 
   /* FOOTER */
   footer {
-    background-image: url(/images/footer-cover.png);
+    background-image: url(./images/footer-cover.png);
     color: white;
     padding: 2em 1em;
     width: 100%;
@@ -609,82 +609,3 @@ footer {
     font-size: 11px;
   }
 }
-
-/* 
-@media (min-width: 600px) {
-  #img {
-    background-image: url(/images/logo-WWF.jpg);
-    background-size: cover;
-    left: 40px;
-    height: 140px;
-    width: 120px;
-    position: absolute;
-    z-index: 100;
-  }
-
-  .top-head {
-    background-image: url(/images/header-cover.png);
-    padding: 0.5em;
-    text-align: right;
-    border-bottom: 1px solid var(--border);
-    max-width: 100%;
-  }
-
-  .top-head > button {
-    font-size: 18px;
-  }
-
-  button > i {
-    font-size: 20px;
-    margin-right: 0.3em;
-  }
-
-  .btn-don,
-  .btn-shop {
-    display: inline;
-  }
-
-  .top-head > .btn-don {
-    background-color: var(--darkOrange);
-    color: white;
-    border-radius: 0;
-  }
-
-  .top-head > .rest-btn {
-    background-color: white;
-    border: 3px solid black;
-    margin-left: 0.3em;
-    border-radius: 0;
-    padding: 0.2em 0.7em 0.2em 0.7em;
-  }
-
-  .bot-head > ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-    max-width: 1300;
-  }
-
-  .bot-head > ul > li {
-    font-size: 22px;
-    padding: 1.2em;
-    margin-right: 0.7em;
-    letter-spacing: 1px;
-    border-bottom: 2px solid transparent;
-    white-space: nowrap;
-  }
-
-  .bot-head > ul > li:hover {
-    border-bottom: 2px solid black;
-  }
-
-  #logo {
-    height: 140px;
-    width: 120px;
-    position: absolute;
-    margin-left: 2em;
-  }
-} */
