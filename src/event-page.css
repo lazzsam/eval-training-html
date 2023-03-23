@@ -357,3 +357,18 @@ footer {
     padding: 2em 1em;
   }
 }
+
+@media (min-width: 1250px) {
+  .scnd-par {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .scnd-par > p.bold {
+    height: 100%;
+  }
+
+  .scnd-par > p:nth-child(2) {
+    width: 90%;
+  }
+}
