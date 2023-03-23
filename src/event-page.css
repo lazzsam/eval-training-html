@@ -48,6 +48,11 @@ h2 {
   height: 2px !important;
 }
 
+.to-main > a {
+  font-size: 0.8rem;
+  color: var(--orange);
+}
+
 /* ------------------------ HEADER  MOBILE -------------------------------*/
 header {
   font-family: var(--font);
