@@ -211,6 +211,11 @@ section.whale {
   font-weight: bold;
 }
 
+.desc > a {
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* RAISON D'ÊTRE PART */
 .bg-light {
   background-image: url(/images/bg-light.png);
