@@ -116,10 +116,6 @@ main {
   margin: 0 auto;
 }
 
-.date {
-  text-align: center;
-}
-
 .first-par > h1 {
   font-size: 3rem;
   font-family: var(--font);
